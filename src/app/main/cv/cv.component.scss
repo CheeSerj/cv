@@ -124,17 +124,32 @@ $yellow: #ffdd2d;
       align-items: center;
     }
 
-    &--technologies{
+    &--technologies {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
+
       &--html {
         @include technologies;
       }
-      &--css{
+
+      &--css {
         @include technologies;
       }
-      &--angular{
+
+      &--angular {
+        @include technologies;
+      }
+
+      &--ts {
+        @include technologies;
+      }
+
+      &--js {
+        @include technologies;
+      }
+      &--git {
         @include technologies;
       }
     }
