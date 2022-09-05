@@ -1,0 +1,139 @@
+$yellow: #ffdd2d;
+
+::ng-deep .mat-icon {
+  font-size: 35px;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.technologies-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background: #ffffff;
+}
+
+.side-panel {
+  width: 500px;
+  height: 100vh;
+  background: black;
+  border-radius: 15px;
+  color: white;
+
+  &__icon {
+    color: $yellow;
+    margin-right: 15px;
+  }
+
+  &__circle {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vw solid #ffdd2d;
+  }
+
+  &__decorative {
+    width: 150px;
+    height: 15px;
+    background: $yellow;
+    border-radius: 10px 0 0 10px;
+    margin-left: 20px;
+  }
+
+  &__photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 400px;
+
+    &--img {
+      position: absolute;
+      top: 70px;
+      width: 300px;
+      border-radius: 45px;
+    }
+  }
+
+  &__contacts {
+
+    &--title {
+      margin-left: 25px;
+      color: white;
+      font-size: 26px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--location {
+      display: flex;
+      align-items: center;
+      font-size: 19px;
+      margin: 50px 0 0 50px;
+    }
+
+    &--email {
+      display: flex;
+      align-items: center;
+      font-size: 19px;
+      margin: 10px 0 0 50px;
+      cursor: pointer;
+    }
+
+    &--link {
+      display: flex;
+      align-items: center;
+      font-size: 19px;
+      margin: 10px 0 0 50px;
+      cursor: pointer;
+    }
+
+    &--tel {
+      display: flex;
+      align-items: center;
+      font-size: 19px;
+      margin: 10px 0 0 50px;
+      cursor: pointer;
+    }
+  }
+
+  &__knowledge {
+
+    &--title {
+      margin: 100px 0 0 25px;
+      color: white;
+      font-size: 26px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--html {
+      margin: 50px 0 0 50px;
+    }
+    &--css{
+      margin: 50px 0 0 50px;
+    }
+    &--angular{
+      margin: 50px 0 0 50px;
+    }
+  }
+}
+
+.content {
+  width: 1000px;
+  background: #e8e8e8;
+  height: 100vh;
+}
