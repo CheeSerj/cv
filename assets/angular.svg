@@ -1,0 +1,17 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250">
+	<title>angular_whiteTransparent-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffdd2d } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<path id="Layer" class="shp0" d="M125 153.4L125 230L125 230L46.1 186.3L31.9 63.2L125 30L125 30L125 52.2L125 52.2L125 52.1L66.8 182.6L66.9 182.6L88.6 182.6L88.6 182.6L100.3 153.4L125 153.4L125 153.4Z" />
+			<path id="Layer" class="shp0" d="M125 94.5L125 135.4L125 135.4L108 135.4L125 94.5Z" />
+		</g>
+		<g id="Layer" style="opacity: 0.902">
+			<path id="Layer" class="shp0" d="M125 153.4L149.7 153.4L161.4 182.6L161.4 182.6L183.1 182.6L183.2 182.6L125 52.1L125 52.2L125 52.2L125 30L125 30L218.1 63.2L203.9 186.3L125 230L125 230L125 153.4L125 153.4Z" />
+			<path id="Layer" class="shp0" d="M142 135.4L125 135.4L125 135.4L125 94.5L142 135.4Z" />
+		</g>
+	</g>
+</svg>
