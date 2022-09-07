@@ -3,7 +3,7 @@ $yellow: #ffdd2d;
   margin: 50px 30px 0 30px;
 }
 
-@mixin hobbies{
+@mixin hobbies {
   margin: 50px 30px 50px 30px;
 }
 
@@ -17,6 +17,7 @@ $yellow: #ffdd2d;
   width: 80px;
   height: 80px;
 }
+
 .hobbies-icon {
   width: 60px;
   height: 60px;
@@ -25,7 +26,6 @@ $yellow: #ffdd2d;
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 150px;
   background: #ffffff;
 }
@@ -54,7 +54,7 @@ $yellow: #ffdd2d;
     flex-direction: column-reverse;
   }
 
-  &__rectangle{
+  &__rectangle {
     width: 95px;
     height: 95px;
     border-radius: 25%;
@@ -82,7 +82,7 @@ $yellow: #ffdd2d;
 
     &--img {
       position: absolute;
-      top: 70px;
+      top: 45px;
       width: 300px;
       border-radius: 45px;
     }
@@ -209,21 +209,22 @@ $yellow: #ffdd2d;
       justify-content: space-between;
       align-items: center;
     }
-    &--icons{
+
+    &--icons {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
 
-      &--books{
+      &--books {
         @include hobbies;
       }
 
-      &--games{
+      &--games {
         @include hobbies;
       }
 
-      &--program{
+      &--program {
         @include hobbies;
       }
     }
@@ -232,7 +233,54 @@ $yellow: #ffdd2d;
 
 .content {
   width: 1000px;
-  background: #e8e8e8;
   margin-bottom: 150px;
+  height: 100vh;
+  margin-left: 100px;
 
+  &__full-name {
+    font-size: 45px;
+    position: absolute;
+    top: 75px;
+  }
+
+  &__job-title {
+    font-size: 20px;
+    color: #ffca00;
+    position: absolute;
+    top: 130px;
+  }
+
+  &__about-me{
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  &__decor{
+    height: 100px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgba(52, 54, 58, 0.2);
+    border-bottom: 1px solid rgba(52, 54, 58, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    &--icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25%;
+      background: rgba(52, 54, 58, 0.8);
+      color: #ffffff;
+      margin: 0 20px;
+
+      .mat-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+    }
+  }
 }
