@@ -9,7 +9,7 @@
 
       <div class="side-panel__contacts--title">
         <span>Контакты для связи</span>
-        <div class="side-panel__decorative">
+        <div class="decorative">
         </div>
       </div>
 
@@ -26,7 +26,7 @@
 
       <div class="side-panel__contacts--link">
         <mat-icon class="side-panel__icon">link</mat-icon>
-        <span>aasdasdasd</span>
+        <span>https://cheeserj.github.io/cv/cv</span>
       </div>
 
       <div class="side-panel__contacts--tel">
@@ -39,7 +39,7 @@
 
       <div class="side-panel__knowledge--title">
         <span>Знания</span>
-        <div class="side-panel__decorative">
+        <div class="decorative">
         </div>
       </div>
 
@@ -86,7 +86,7 @@
 
         <div class="side-panel__education--title">
           <span>Образование</span>
-          <div class="side-panel__decorative">
+          <div class="decorative">
           </div>
         </div>
 
@@ -103,7 +103,7 @@
 
         <div class="side-panel__hobbies--title">
           <span>Увлечения</span>
-          <div class="side-panel__decorative">
+          <div class="decorative">
           </div>
         </div>
 
@@ -150,6 +150,43 @@
       <mat-icon class="content__decor--icon">code</mat-icon>
       <mat-icon class="content__decor--icon">code</mat-icon>
     </div>
+
+    <div class="content__work-experience">
+      Опыт работы
+      <div class="decorative"></div>
+    </div>
+    <div class="content__stepper">
+      <mat-stepper orientation="vertical">
+        <mat-step>
+          <ng-template class="content__stepper--label" matStepLabel>АО НПК «ВТиСС»</ng-template>
+          <ng-template matStepContent>
+              <p>2022 - настоящее время</p>
+            <p>This content was rendered lazily</p>
+            <button mat-button matStepperNext>Next</button>
+          </ng-template>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>ИП Виноградов</ng-template>
+          <ng-template matStepContent>
+            <p>This content was also rendered lazily</p>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+          </ng-template>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>АО "Калуга Астрал"</ng-template>
+          <p>This content was rendered eagerly</p>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>ИП Писаревский</ng-template>
+          <p>This content was rendered eagerly</p>
+          <button mat-button matStepperPrevious>Back</button>
+        </mat-step>
+      </mat-stepper>
+    </div>
+
   </div>
 
 </div>
