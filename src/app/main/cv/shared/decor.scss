@@ -1,5 +1,17 @@
 $yellow: #ffdd2d;
 
+@mixin geometric-figures{
+  width: 95px;
+  height: 95px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2vw solid #ffdd2d;
+  flex-direction: column-reverse;
+}
+
+
 .decorative {
   width: 150px;
   height: 15px;
@@ -14,25 +26,11 @@ $yellow: #ffdd2d;
 }
 
 .circle {
-  width: 95px;
-  height: 95px;
+  @include geometric-figures;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0.2vw solid #ffdd2d;
-  flex-direction: column-reverse;
 }
 
 .rectangle {
-  width: 95px;
-  height: 95px;
+  @include geometric-figures;
   border-radius: 25%;
-  background: rgba(255, 255, 255, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0.2vw solid #ffdd2d;
-  flex-direction: column-reverse;
 }

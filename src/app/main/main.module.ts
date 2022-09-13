@@ -9,7 +9,8 @@ import { ContactsComponent } from './cv/side-panel/contacts/contacts.component';
 import { KnowledgeComponent } from './cv/side-panel/knowledge/knowledge.component';
 import { EducationComponent } from './cv/side-panel/education/education.component';
 import { HobbiesComponent } from './cv/side-panel/hobbies/hobbies.component';
-import { StepperComponent } from './cv/content/stepper/stepper.component';
+import { WorkExperienceComponent } from './cv/content/work-experience/work-experience.component';
+import { InfoComponent } from './cv/content/info/info.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { StepperComponent } from './cv/content/stepper/stepper.component';
     KnowledgeComponent,
     EducationComponent,
     HobbiesComponent,
-    StepperComponent
+    WorkExperienceComponent,
+    InfoComponent
   ],
   imports: [
     CommonModule,
