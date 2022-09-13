@@ -1,0 +1,55 @@
+@import 'src/app/main/cv/shared/decor';
+
+@mixin technologies {
+  margin: 50px 30px 0 30px;
+}
+
+.technologies-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.knowledge {
+
+  &--title {
+    margin: 100px 0 0 25px;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &--technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &--html {
+      @include technologies;
+    }
+
+    &--css {
+      @include technologies;
+    }
+
+    &--angular {
+      @include technologies;
+    }
+
+    &--ts {
+      @include technologies;
+    }
+
+    &--js {
+      @include technologies;
+    }
+
+    &--git {
+      @include technologies;
+    }
+  }
+
+}
