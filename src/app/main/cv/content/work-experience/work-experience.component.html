@@ -4,33 +4,16 @@
 </div>
 
 <div class="work-experience__stepper">
-  <mat-stepper orientation="vertical">
-    <mat-step>
-      <ng-template class="stepper--label" matStepLabel>АО НПК «ВТиСС»</ng-template>
+  <mat-stepper orientation="vertical" >
+    <mat-step *ngFor="let step of data">
+      <ng-template class="stepper--label" matStepLabel>{{step.jobName}}</ng-template>
       <ng-template matStepContent>
-        <p>2022 - настоящее время</p>
-        <p>This content was rendered lazily</p>
-        <button mat-button matStepperNext>Next</button>
+        <p>{{step.jobTitle}}</p>
+        <p class="date">{{step.workDate}}</p>
+        <p class="description">{{step.description}}</p>
+        <button mat-button matStepperPrevious>Назад</button>
+        <button mat-button matStepperNext>Дальше</button>
       </ng-template>
-    </mat-step>
-    <mat-step>
-      <ng-template matStepLabel>ИП Виноградов</ng-template>
-      <ng-template matStepContent>
-        <p>This content was also rendered lazily</p>
-        <button mat-button matStepperPrevious>Back</button>
-        <button mat-button matStepperNext>Next</button>
-      </ng-template>
-    </mat-step>
-    <mat-step>
-      <ng-template matStepLabel>АО "Калуга Астрал"</ng-template>
-      <p>This content was rendered eagerly</p>
-      <button mat-button matStepperPrevious>Back</button>
-      <button mat-button matStepperNext>Next</button>
-    </mat-step>
-    <mat-step>
-      <ng-template matStepLabel>ИП Писаревский</ng-template>
-      <p>This content was rendered eagerly</p>
-      <button mat-button matStepperPrevious>Back</button>
     </mat-step>
   </mat-stepper>
 </div>
