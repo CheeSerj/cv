@@ -27,16 +27,9 @@
     align-items: center;
     flex-wrap: wrap;
 
-    &--books {
+    &--position {
       @include hobbies;
     }
 
-    &--games {
-      @include hobbies;
-    }
-
-    &--program {
-      @include hobbies;
-    }
   }
 }
