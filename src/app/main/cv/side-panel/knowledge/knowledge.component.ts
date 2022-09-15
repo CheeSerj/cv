@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {KnowledgeData, technologiesData} from "./mock/knowledge-data";
 
 @Component({
   selector: 'app-knowledge',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./knowledge.component.scss']
 })
 export class KnowledgeComponent implements OnInit {
+  public technologies: KnowledgeData[] = technologiesData
 
-  constructor() { }
+  constructor() {
+  }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
   }
 
 }
