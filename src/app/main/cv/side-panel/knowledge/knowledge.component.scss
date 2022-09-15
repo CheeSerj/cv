@@ -1,7 +1,7 @@
 @import 'src/app/main/cv/shared/decor';
 
 @mixin technologies {
-  margin: 50px 30px 0 30px;
+  margin: 20px 15px 0 15px;
 }
 
 .technologies-icon {
@@ -12,9 +12,9 @@
 .knowledge {
 
   &--title {
-    margin: 100px 0 0 25px;
+    margin: 50px 0 0 25px;
     color: white;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
     display: flex;
     justify-content: space-between;

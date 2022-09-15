@@ -1,20 +1,19 @@
 $yellow: #ffdd2d;
 
 @mixin geometric-figures{
-  width: 60px;
-  height: 60px;
   background: rgba(255, 255, 255, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 0.2vw solid #ffdd2d;
   flex-direction: column-reverse;
+  font-size: 10px;
 }
 
 
 .decorative {
-  width: 150px;
-  height: 15px;
+  width: 100px;
+  height: 11px;
   background: $yellow;
   border-radius: 10px 0 0 10px;
   margin-left: 20px;
@@ -22,14 +21,19 @@ $yellow: #ffdd2d;
 
 .icon {
   color: $yellow;
+  margin-right: 10px;
 }
 
 .circle {
-  @include geometric-figures;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
+  @include geometric-figures;
 }
 
 .rectangle {
-  @include geometric-figures;
+  width: 65px;
+  height: 65px;
   border-radius: 25%;
+  @include geometric-figures;
 }
