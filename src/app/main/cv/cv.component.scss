@@ -6,13 +6,13 @@
 }
 
 ::ng-deep .mat-icon {
-  font-size: 35px;
+  font-size: 30px;
   width: 40px !important;
   height: 40px !important;
 }
 
 .side-panel {
-  width: 500px;
+  width: 300px;
   background: black;
   border-radius: 15px;
   color: white;
@@ -22,19 +22,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 
     &--img {
       position: absolute;
       top: 45px;
-      width: 300px;
+      width: 200px;
       border-radius: 45px;
     }
   }
 }
 
 .content {
-  width: 1000px;
+  width: 600px;
   margin-bottom: 150px;
   height: 100vh;
   margin-left: 100px;

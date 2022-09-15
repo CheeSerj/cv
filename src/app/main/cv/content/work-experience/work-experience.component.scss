@@ -21,6 +21,20 @@
   }
 }
 
+.date{
+  color: #ffca00;
+  font-size: 20px;
+}
+
+.description{
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.title{
+  font-size: 20px;
+}
+
 ::ng-deep.mat-step-header .mat-step-icon-selected {
   background-color: #ffdd2d !important;
   color: #000000;
@@ -47,12 +61,3 @@
   height: 200px;
 }
 
-.date{
-  color: #ffca00;
-  font-size: 20px;
-}
-
-.description{
-  margin-top: 15px;
-  font-size: 23px;
-}

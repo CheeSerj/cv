@@ -1,8 +1,8 @@
 $yellow: #ffdd2d;
 
 @mixin geometric-figures{
-  width: 95px;
-  height: 95px;
+  width: 60px;
+  height: 60px;
   background: rgba(255, 255, 255, 0.2);
   display: flex;
   justify-content: center;
@@ -22,7 +22,6 @@ $yellow: #ffdd2d;
 
 .icon {
   color: $yellow;
-  margin-right: 15px;
 }
 
 .circle {
