@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {CvService} from "./cv.service";
+
 
 @Component({
   selector: 'app-cv',
@@ -7,6 +9,11 @@ import { Component } from '@angular/core';
 })
 export class CvComponent {
 
-  constructor() { }
+  constructor(private cv: CvService) {
+  }
+
+  public downloadCv(): void {
+    this.cv.download()
+  }
 
 }
