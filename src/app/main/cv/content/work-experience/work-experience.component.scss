@@ -1,8 +1,8 @@
 @import 'src/app/main/cv/shared/decor';
 
 .work-experience {
-  margin-top: 100px;
-  font-size: 40px;
+  margin-top: 50px;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   margin-left: 25px;
@@ -28,7 +28,9 @@
 
 .description{
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 14px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .title{
@@ -53,11 +55,10 @@
 
 ::ng-deep .mat-step-label {
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 ::ng-deep .mat-vertical-content {
   margin-top: 10px;
-  height: 200px;
 }
 
