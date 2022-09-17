@@ -1,7 +1,7 @@
 .info {
 
   &__full-name {
-    font-size: 45px;
+    font-size: 35px;
     position: absolute;
     top: 75px;
     font-family: 'Inter', sans-serif;
@@ -9,17 +9,17 @@
   }
 
   &__job-title {
-    font-size: 25px;
+    font-size: 20px;
     color: #ffca00;
     position: absolute;
-    top: 130px;
+    top: 120px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
   }
 
   &__about-me {
-    font-size: 20px;
-    margin-top: 40px;
+    font-size: 16px;
+    margin-top: 15px;
   }
 
   &__decor {
