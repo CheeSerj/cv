@@ -1,8 +1,11 @@
 <div class="container">
   <div class="side-panel">
 
-    <div class="side-panel__photo">
-      <img class="side-panel__photo--img" src="assets/photo2.png" alt="">
+    <div class="side-panel__photo" (click)="swapImgToTg()">
+        <img matTooltip="Нажми сюда"
+             class="side-panel__photo--img"
+             [src]="showImg ? 'assets/photo2.png' : 'assets/tg2.png'"
+             alt="Тут должно быть фото">
     </div>
 
     <app-contacts></app-contacts>

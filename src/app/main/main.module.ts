@@ -12,6 +12,7 @@ import {HobbiesComponent} from './cv/side-panel/hobbies/hobbies.component';
 import {WorkExperienceComponent} from './cv/content/work-experience/work-experience.component';
 import {InfoComponent} from './cv/content/info/info.component';
 import {HttpClientModule} from "@angular/common/http";
+import {MatTooltipModule} from "@angular/material/tooltip";
 
 @NgModule({
   declarations: [
@@ -23,13 +24,14 @@ import {HttpClientModule} from "@angular/common/http";
     WorkExperienceComponent,
     InfoComponent
   ],
-  imports: [
-    CommonModule,
-    MatIconModule,
-    MatStepperModule,
-    MatButtonModule,
-    HttpClientModule
-  ]
+    imports: [
+        CommonModule,
+        MatIconModule,
+        MatStepperModule,
+        MatButtonModule,
+        HttpClientModule,
+        MatTooltipModule
+    ]
 })
 export class MainModule {
 }

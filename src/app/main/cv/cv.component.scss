@@ -1,3 +1,5 @@
+@import 'src/app/main/cv/shared/decor';
+
 .container {
   display: flex;
   justify-content: center;
@@ -29,6 +31,7 @@
       top: 45px;
       width: 200px;
       border-radius: 45px;
+      cursor: pointer;
     }
   }
 }
@@ -38,4 +41,17 @@
   margin-bottom: 150px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.flip-horizontal-bottom {
+  animation: flip-horizontal-bottom 0.4s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+}
+
+@keyframes flip-horizontal-bottom {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
 }
