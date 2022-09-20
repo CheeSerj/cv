@@ -1,4 +1,4 @@
-export interface WorkExperience{
+export interface WorkExperience {
   jobName: string
   workDate: string;
   jobTitle: string;

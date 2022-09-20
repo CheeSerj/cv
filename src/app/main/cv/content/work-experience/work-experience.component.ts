@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {WorkExperience} from "./interfaces/work-experience";
 import {StepperData} from "./mock/stepper-data";
 
@@ -11,7 +11,8 @@ import {StepperData} from "./mock/stepper-data";
 export class WorkExperienceComponent implements OnInit {
   public data: WorkExperience[] = StepperData
 
-  constructor() { }
+  constructor() {
+  }
 
   public ngOnInit(): void {
   }

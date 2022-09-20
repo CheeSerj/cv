@@ -18,7 +18,7 @@
   background: black;
   border-radius: 15px;
   color: white;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 
   &__photo {
     display: flex;
@@ -34,24 +34,38 @@
       cursor: pointer;
     }
   }
+
+  &__download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    &--btn {
+      background: rgba(255, 255, 255, 0.2);
+      border: 2px solid $yellow;
+      color: white;
+      border-radius: 15px;
+    }
+  }
 }
 
 .content {
   width: 600px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
 }
-
+/*
 .flip-horizontal-bottom {
   animation: flip-horizontal-bottom 0.4s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 @keyframes flip-horizontal-bottom {
   0% {
-    transform: rotateX(0);
-  }
-  100% {
     transform: rotateX(-360deg);
   }
-}
+  100% {
+    transform: rotateX(0);
+  }
+}*/

@@ -2,23 +2,28 @@
   <div class="side-panel">
 
     <div class="side-panel__photo" (click)="swapImgToTg()">
-        <img matTooltip="Нажми сюда"
-             class="side-panel__photo--img"
-             [src]="showImg ? 'assets/photo.png' : 'assets/tg.png'"
-             alt="Тут должно быть фото">
+      <img matTooltip="Нажми сюда"
+           class="side-panel__photo--img"
+           [src]="showImg ? 'assets/photo.png' : 'assets/tg.png'"
+           alt="Тут должно быть фото">
     </div>
 
     <app-contacts></app-contacts>
     <app-knowledge></app-knowledge>
     <app-education></app-education>
     <app-hobbies></app-hobbies>
+
+    <div class="side-panel__download">
+      <button class="side-panel__download--btn" (click)="downloadCv()" mat-raised-button>Скачать резюме</button>
+    </div>
   </div>
 
 
   <div class="content">
+
     <app-info></app-info>
     <app-work-experience></app-work-experience>
-    <button (click)="downloadCv()" mat-raised-button>Скачать резюме</button>
+
   </div>
 
 </div>

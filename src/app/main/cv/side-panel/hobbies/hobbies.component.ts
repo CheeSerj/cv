@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Hobbies} from "./interfaces/hobbies";
 import {HobbiesData} from "./mock/hobbies-data";
 
@@ -10,7 +10,8 @@ import {HobbiesData} from "./mock/hobbies-data";
 export class HobbiesComponent implements OnInit {
   public hobbies: Hobbies[] = HobbiesData
 
-  constructor() { }
+  constructor() {
+  }
 
   public ngOnInit(): void {
   }
