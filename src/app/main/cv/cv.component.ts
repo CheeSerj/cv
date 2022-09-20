@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {CvService} from "./cv.service";
+import {CvService} from "./side-panel/services/cv.service";
 
 @Component({
   selector: 'app-cv',

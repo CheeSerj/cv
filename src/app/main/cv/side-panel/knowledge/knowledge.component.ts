@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {KnowledgeData, technologiesData} from "./mock/knowledge-data";
 
 @Component({
@@ -6,13 +6,6 @@ import {KnowledgeData, technologiesData} from "./mock/knowledge-data";
   templateUrl: './knowledge.component.html',
   styleUrls: ['./knowledge.component.scss']
 })
-export class KnowledgeComponent implements OnInit {
+export class KnowledgeComponent {
   public technologies: KnowledgeData[] = technologiesData
-
-  constructor() {
-  }
-
-  public ngOnInit(): void {
-  }
-
 }

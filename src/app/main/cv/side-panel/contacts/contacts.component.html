@@ -13,17 +13,16 @@
 
   <div class="contacts--email">
     <mat-icon class="icon">email</mat-icon>
-    <a
-      onclick="window.location='mailto:chibisovse@yandex.ru?subject=' + window.location.href">chibisovse@yandex.ru</a>
+    <a (click)="sendEmail()">chibisovse@yandex.ru</a>
   </div>
 
   <div class="contacts--link">
     <mat-icon class="icon">link</mat-icon>
-    <span>https://github.com/CheeSerj</span>
+    <a class="github" href="https://github.com/CheeSerj">https://github.com/CheeSerj</a>
   </div>
 
   <div class="contacts--tel">
     <mat-icon class="icon">local_phone</mat-icon>
-    <a onclick="window.open('tel:+79200923752')">+79200923752</a>
+    <a (click)="call()">+79200923752</a>
   </div>
 </div>
